@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+/*header edits*/
+
+.header {
+    background: #c9356c;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.site-title {
+    font-size: 24px;
+
+}
+
+
+.links {
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+/*introduction edits*/
+
+.introduction {
+    width: auto;
+    background-color: #c9356c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 20px;
+    background-color: #c3195d;
+    width: 60vh;
+}
+
+.intro-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.intro-button {
+    background-color: #680747;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    color: #fafafa;
+}
+
+.intro-image {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #c3195d;
+}
+
+
+/*content edits*/
+.content {
+    height: 400px;
+    width: auto;
+    background-color: #ffebeb
+}
+
+/*footer edits*/
+
+.footer {
+    background-color: #c9356c;
+    text-align: center;
+    padding: 10px;
+}
+
+
