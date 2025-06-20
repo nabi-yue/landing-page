@@ -145,7 +145,7 @@ img {
     align-items: center;
     justify-content: space-evenly; 
     background-color: #fad3cf;
-    padding: 100px;
+    padding: 50px 100px 50px 100px;
 }
 
 .quote-proper{
@@ -159,6 +159,54 @@ img {
     color: #36162e;
     font-size: 14px;
 }
+
+/*content:extra section*/
+.content-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.extra-box {
+    background-color: #c3195d;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.box-text {
+    padding: 50px;
+}
+.text-title {
+    color: #36162e;
+    font-size: 24px;
+    text-align: start;
+}
+
+.text-yap {
+    color: #36162e;
+    font-size: 18px;
+    text-align: start;
+}
+
+.box-button {
+    padding: 50px;
+
+}
+
+.extra-button {
+    background-color: #36162e;
+    border: none;
+    border-radius: 20px;
+    color: #fad3cf;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px;
+}
+
 /*footer edits*/
 
 .footer {
