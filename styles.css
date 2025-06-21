@@ -84,7 +84,7 @@ body {
 
 /*content edits*/
 .content {
-    height: 100vh;
+    min-height: auto;
     width: auto;
     background-color: #ffebeb;
     display: flex;
